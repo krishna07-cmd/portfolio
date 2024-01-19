@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h2>Port<span>f</span>olio</h2>
+               <!--- <img src="" alt="logo">-->
+                <ul id="sidemenu">
+                    <li><a href="#header" onclick="closemenu()">Home</a></li>
+                    <li><a href="#about" onclick="closemenu()">About</a></li>
+                    <!--<li><a href="#Education" onclick="closemenu()">Education</a></li>-->
+                    <li><a href="#portfolio" onclick="closemenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="closemenu()">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                
+                <p><span>Dot-Net Developer</span></p>
+                <h1>Hi, I'am<span> Krishna</span><br> Mapari From Pune</h1>
+                    </div>
+                 </div>
+            </div>
+<!---------------------------------------------------------about-------------------------------------------------------------------->
+           
+               <div id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="about-col-1">
+                                <img src="p2.JPG">
+                                
+                                
+                        </div>
+                        <div class="about-col-2">
+                                <h1 class= sub-title>About Me</h1><br>
+                                <p>
+                                    
+                                    As a passionate and dedicated .NET developer, I bring a strong foundation in C# and ASP.NET, coupled with proficiency in web development using technologies like MVC and Razor Pages. My academic background includes <b class="clg">Master's Degree in Computer Science</b> from MIT Art's, Commerce And Science College,Pune and I have successfully applied my skills in real-world projects.
+                                    <div class="tab-titles">
+                                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            
+                                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+                                  <!----  <p class="tab-links" onclick="opentab('Experience')">Experience</p>-->
+
+                                </div>
+                                <div class="tab-contents active-tab" id="Skills">
+                                    <ul>
+                                        <li><span>C# Programming</span><br>Application Development</li>
+                                        <li><span>ASP.NET Core</span><br>Modern Web Apps</li>
+                                        <li><span>ASP.NET MVC</span><br>Model-View-Controller Design</li>
+                                        <li><span>SQL Server</span><br>Database Querying</li>
+                                        <li><span>Git Version Control</span><br>Source Code Collaboration</li>
+
+                                    </ul>
+                                </div>
+                                <!--<div class="tab-contents" id="Experience">
+                                    <ul>
+                                        <li><span>2024 -Current</span><br>.Net Intern at Cravita Technologies</li>
+                                    </ul>
+                                </div>-->
+                                <div class="tab-contents" id="Education">
+                                    <ul>
+                                        <li><span>2024</span><br>.Net Course - Fortune Cloud,Pune</li>
+                                        <li><span>2024</span><br>MSc(Computer Science) - MIT Art's, Commerce And Science College,Pune</li>
+                                        <li><span>2022</span><br>BSc(Computer Science) - Bytco College,Nashik</li>
+                                        <li><span>2019</span><br>12th - Bytco Collgege,Nashik </li>
+                                        <li><span>2017</span><br>10th - P.E.School,Nashik</li>
+                                    </ul>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!----------------------------------------------MY PROJECTS------------------------------------------------------------->
+
+            <div id="portfolio">
+                <div class="container">
+                    <h1 class="sub-title">My Projects</h1>
+                    <div class="project-list">
+                       <div class="project">
+                            <img src="p8.jpg">
+                            <div class="layer">
+                                
+                                <br><h3><b>Project 1</b></h3>
+                                <p><b>Taks Management <br> System</b></p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                       </div>
+                       <div class="project">
+                            <img src="p8.jpg">
+                            <div class="layer">
+                                <br><h3><b>Project 2</b></h3>
+                                <p><b>Chat Application</b></p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <i class=""></i>
+                            </div>
+                       </div>
+                        <div class="project">
+                            <img src="p8.jpg">
+                            <div class="layer">
+                                <br><h3><b>Project 3</b></h3>
+                                <p><b>Blog or Content Management System (CMS)</b></p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                       </div>
+                    </div>
+                    <a href="#" class="btn">See More</a>
+
+                </div>
+            </div>
+<!-----------------------------contact--------------------------------------------------->
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>krishnmapari907@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9766981161</p>
+            <div class="social-icon">
+                <a href="https://www.instagram.com/krishna_mapari_07?igsh=ZWVlZmVvdDRjZHRn&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://t.me/krishna_mapari_07"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://github.com/krishna07-cmd"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/krishna-mapari-173956295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin"></i></a></a>
+                
+            </div>
+        
+            <a href="C:\Users\krish\Contacts\Desktop\Personal-Portfolio\Krishna Mapari .pdf" download class="btn btn2">Download CV</a>
+          
+        </div>
+
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required><br>
+                    <input type="text" name="email" placeholder="Your Email" required><br>
+                    <textarea name="Message" placeholder="Your Message"></textarea><br>
+                    <button type="submit" class="btn btn2">Submit</button><br>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @Krishna. Made with <i class="fa fa-heart"></i>.</p>
+    </div>
+</div>
+
+
+
+        <Script>
+            
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname)
+            {
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+
+        </Script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right="0";
+
+            }
+            
+            function closemenu(){
+                sidemenu.style.right="-200px";
+                
+            }
+        </script>
+</body>
+</html>
