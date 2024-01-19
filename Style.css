@@ -231,7 +231,7 @@ nav ul li a:hover::after{
     flex-basis: 35%;
 }
 .contact-right{
-    flex-basis: 40%;
+    flex-basis: 60%;
     
 }
 .contact-left p{
@@ -269,7 +269,7 @@ nav ul li a:hover::after{
      
 }
 form input,form textarea{
-    width: 100;
+    width: 100%;
     border: 0;
     outline: none;
     background: #262626;
@@ -363,6 +363,7 @@ nav .fas{
     }
     .about-col-1{
         margin-bottom: 30px;
+    
     }
     .about-col-2{
         font-size: 14px;
