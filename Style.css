@@ -200,6 +200,9 @@ nav ul li a:hover::after{
     opacity: 70%;
     
 }
+.project h4 span{
+    opacity: 70%;
+}
 .layer a{
     margin-top: 20px;
     color:rgb(102, 47, 150);
